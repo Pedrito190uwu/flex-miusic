@@ -1,0 +1,18 @@
+body {
+    margin:0;
+    font-family:Arial, sa ns-serif;
+    height:100vh;         
+    display:flex;
+    flex-direction:column;
+}
+header{
+    background-image: url(../pages/images/angel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    padding: 150px;
+    color: azure;
+}
