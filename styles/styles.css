@@ -1,18 +1,166 @@
 body {
     margin:0;
-    font-family:Arial, sa ns-serif;
-    height:100vh;         
-    display:flex;
-    flex-direction:column;
+    font-family: "Roboto Flex", sans-serif;
+    
 }
-header{
-    background-image: url(../pages/images/angel.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    width: 100%;
+header {
+  background-image: url("../pages/images/angel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;  
+  width: 100%;      
+  display: flex;            
+  justify-content: center;    
+  align-items: center; 
+  
+}
+
+.titulo{
+  font-size: 200px; 
+  color: white; 
+  font-weight: 100px;
+}
+
+
+.BTN {
+  background: #ff0057;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+header h1 {
+    font-size: 50px;
     text-align: center;
-    padding: 150px;
-    color: azure;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.sesio{
+    font-size: 40px;
+}
+
+.tex1{
+    font-size: 30px;
+    background: linear-gradient(45deg, #fd7a70 40px, #da0d51 50px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.text {
+  flex: 1;
+  padding: 260px;
+}
+
+.text1{
+  padding: 0 0 0 1000px;
+  
+}
+
+p{
+    line-height: 2.0;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 90%;
+  height: auto;
+}
+
+.section-revesa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row-reverse;
+}
+
+
+.big-big {
+  background-image: url("../pages/images/raptis.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse; 
+  align-items: center;         
+  justify-content: flex-start; 
+  padding: 80px;
+  height: 60vh;      
+  color: white;  
+}               
+
+.big-bg .duto {
+  max-width: 500px;
+}
+
+.big-bg h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.big-bg p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.big-bg button {
+  background: #ff4f5a;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+
+footer{
+    background:linear-gradient(180deg,#ff3366,#e52e71); 
+    color:#fff; 
+    padding:40px 20px;
+    line-height: 7.0;
+}
+.footer-flex{
+    display:flex; 
+    justify-content:space-between; 
+    gap:20px; 
+    flex-wrap:wrap; 
+    max-width:1100px; 
+    margin:auto;
+}
+.footer strong{
+    display:block;
+     margin-bottom:8px;
+    }
+.footer p{
+    margin:0; 
+    font-size:14px;
+    line-height: 2.9;
+}
+.copy{
+    text-align:left; 
+    border-top: #fff 1px solid;
+}
+
+.copy1{
+  float: right;
 }
